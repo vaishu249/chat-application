@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Search() {
   return (
     <div>
-      chat app
+      
     </div>
   )
 }
 
-export default App
+export default Search
