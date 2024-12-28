@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaSearch } from "react-icons/fa";
 
-
 function Search() {
     return (
-        <div className='px-6 py-4'>
+        <div className='h-[10vh]'>
+            <div className='px-6 py-4'>
             <form action=''>
                 <div className='flex space-x-3'>
                 <label className="border-[0.5px] border-gray-700 rounded-lg p-3 flex items-center gap-2  w-[80%] bg-slate-800">
@@ -16,6 +16,7 @@ function Search() {
                 </button>
                 </div>
             </form>
+        </div>
         </div>
     )
 }
