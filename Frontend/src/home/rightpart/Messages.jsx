@@ -3,10 +3,17 @@ import Message from './Message'
 
 function Messages() {
     return (
-        <div className='' style={{minHeight:"calc(92vh - 8vh)"}}>
+        <div className='flex-1 overflow-y-auto' style={{minHeight:"calc(92vh - 8vh)"}}>
             <Message/>
             <Message/>
             <Message/>
+            <Message/>
+            <Message/>
+            <Message/>
+            <Message/>
+            <Message/>
+            <Message/>
+
         </div>
     )
 }
