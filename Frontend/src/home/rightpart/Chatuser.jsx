@@ -2,9 +2,9 @@ import React from 'react'
 
 function Chatuser() {
   return (
-    <div className='h-[8vh] flex space-x-3 py-3 items-center justify-center bg-gray-900 hover:bg-gray-700 duration-300'>
+    <div className='h-[8vh] flex space-x-3 py-4 items-center justify-center bg-gray-900 hover:bg-gray-700 duration-300'>
       <div className="avatar online">
-        <div className="w-16 rounded-full">
+        <div className="w-14 rounded-full">
           <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
         </div>
       </div>
