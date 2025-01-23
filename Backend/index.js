@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import e from 'express';
+import userRoute from './routes/user.route.js';
 const app = express();
 
 dotenv.config();
@@ -15,7 +15,7 @@ try {
 } catch (error) {
   console.log(error);
 }
-
+app.use("/user",userRoute)
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
